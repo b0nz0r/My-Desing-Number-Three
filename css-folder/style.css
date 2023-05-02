@@ -2713,6 +2713,7 @@ footer .container .pictures {
 @media (max-width: 767px) {
     footer .container .pictures {
         justify-content: center;
+        grid-template-columns: repeat(auto-fill, 80px);
     }
 }
 
